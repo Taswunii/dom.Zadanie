@@ -1,16 +1,30 @@
-# This is a sample Python script.
+class Car:
+    mark = "Audi"
+    model = "gt rs"
+    year = "2023"
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def __init__(self):
+        self.name = "E-tron"
+        self.hp = 600
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+cr = Car()
+
+print(cr.mark, cr.name, cr.model, cr.hp, "hp")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+class Animal:
+    group = "mammal"
+    tipe = "predator"
+    eats = "omnivorous"
+
+    def __init__(self):
+        self.name = "lion"
+        self.height = 190
+
+
+an = Animal()
+
+print(an.group, an.tipe, an.eats, an.name, an.height, "kg")
+
